@@ -10,6 +10,8 @@ install.packages('tidyr', dependencies=T)
 install.packages('ggplot2', dependencies=T)
 install.packages('igraph',dependencies = T)
 install.packages('PMML',dependencies = T)
+
+
 pkgs <- c("data.table", "dplyr", "ggvis", "tidyr", "ggplot2")
 
 pkgDep(pkgs, enhances=TRUE)
