@@ -16,7 +16,7 @@ pkgs <- c("data.table", "dplyr", "ggvis", "tidyr", "ggplot2")
 
 pkgDep(pkgs, enhances=TRUE)
 
-p <- makeDepGraph(pkgs, enhances = TRUE)
+p <- makeDepGraph(pkgs, enha   ces = TRUE)
 
 set.seed(1)
 plot(p, cex=1, vertex.size=15)
