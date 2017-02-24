@@ -1,4 +1,7 @@
 
 print("Look at columns from dataset provided by SAS")
-names(df)
+
+fit <- lm(cars_lm,formula=MPG_Highway ~ EngineSize + Cylinders + Horsepower + Weight + Wheelbase + Length)
+
+fit.diag  <- cbind(fit$residuals,fit$fitted.values)
 
